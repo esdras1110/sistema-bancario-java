@@ -1,26 +1,32 @@
 # Sistema Bancário em Java
 
-Projeto simples de terminal desenvolvido em Java para praticar Programação Orientada a Objetos (POO).
+Projeto simples de terminal desenvolvido em Java para simular operações bancárias básicas.
 
 ## Funcionalidades
 - Criar conta
-- Listar contas
-- Acessar conta
+- Listar contas cadastradas
+- Acessar uma conta pelo número
 - Depositar
 - Sacar
-- Transferir valores
+- Transferir entre contas
+- Visualizar dados da conta
+
+## Estrutura do projeto
+- `model` → classes de domínio (`Cliente`, `Conta`)
+- `service` → regras de negócio (`Banco`)
+- `ui` → interface de terminal (`Menu`)
 
 ## Tecnologias
 - Java
-- POO
-- Collections (ArrayList)
+- Programação orientada a objetos
+- Collections (`List`)
 - Streams
+- Tratamento de exceções (`try/catch`)
 
-## Objetivo
-Praticar conceitos de:
-- Classes e objetos
-- Encapsulamento
-- Relacionamento entre classes
-- Métodos
-- Validações
-- Organização de código
+## Como executar
+1. Compile o projeto
+2. Execute a classe `App`
+3. Use o menu no terminal
+
+## Autor
+Esdras
